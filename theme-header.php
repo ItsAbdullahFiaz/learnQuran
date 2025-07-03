@@ -15,8 +15,7 @@ $logo_white 		= !empty($tuturn_settings['logo_white']) ? $tuturn_settings['logo_
 $transparent_logo 	= !empty($tuturn_settings['transparent_logo']['url']) ? $tuturn_settings['transparent_logo']['url'] : '';
 $preloader = '';
 
-$logo = !empty($tuturn_settings['logo']['url']) ? $tuturn_settings['logo']['url'] : '';
-$logo = !empty($tuturn_settings['logo']['url']) ? $tuturn_settings['logo']['url'] : get_template_directory_uri() . '/images/logo.svg';
+$logo = 'https://quranforu.org/wp-content/uploads/2025/01/QuranforU_Logo_Horizontal.png';
 $page_id = get_the_ID();
 $blogname = wp_specialchars_decode(get_option('blogname'), ENT_QUOTES);
 
